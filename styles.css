@@ -1,0 +1,148 @@
+/* COLOR PALETTE
+https: //coolors.co/user/palettes/637158f9857914000ae38c5e
+
+~Old Burgundy 3D2A29
+~Blue Sapphire 19647E
+~Gold Crayola E6C39E
+~Pale Silver C5BAAF
+~Brunswick Green 2D4E36
+*/
+
+/* Global Styles
+------------------------------------------------------------>*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #1a1919;
+    margin: 0;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+img {
+    width: auto;
+}
+
+h1 {
+    font-size: 75px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+------------------------------------------------------------>*/
+
+header {
+    background-color: #2D4E36;
+    color: #C5BAAF;
+    text-align: center;
+}
+
+/* Projects
+------------------------------------------------------------>*/
+
+.projects {
+    background: #19647E;
+    color: #C5BAAF;
+}
+
+.project_item {
+    overflow: hidden;
+    border-bottom: 1px dashed #C5BAAF;
+    padding: 25px 0;
+}
+
+.project_item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project_item h3 {
+    margin-top: 0;
+}
+
+.projects a {
+    background-color: #3d2a29;
+    color: #C5BAAF;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects a:hover {
+    background: rgba(61, 42, 41, 80%);
+}
+
+/* Work Experience
+------------------------------------------------------------>*/
+
+.work {
+    background: #3d2a29;
+    color: #C5BAAF;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+
+/* Education
+------------------------------------------------------------>*/
+
+.education {
+    background: #C5BAAF;
+}
+
+/* Contact Info
+------------------------------------------------------------>*/
+footer a {
+    color: #19647E;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
